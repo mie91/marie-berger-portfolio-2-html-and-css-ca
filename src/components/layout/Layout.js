@@ -10,7 +10,7 @@ import Contact from "../contact/Contact";
 function Layout() {
     return (
         <Router>
-            <Navbar expand="md">
+            <Navbar expand="md" fixed="top">
                 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
