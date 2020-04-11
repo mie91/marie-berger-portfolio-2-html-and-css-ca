@@ -1,0 +1,14 @@
+.home-bg {
+    @include bg-basics;
+    background-image: url("../../assets/images/bicycle-438400_1920.jpg");
+}
+
+.about-bg {
+    @include bg-basics;
+    background-image: url("../../assets/images/paris-1852928_1920.jpg");
+}
+
+.tours-bg {
+    @include bg-basics;
+    background-image: url("../../assets/images/arc-de-triomphe-101633_1280.jpg");
+}
