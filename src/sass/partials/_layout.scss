@@ -1,0 +1,32 @@
+//NAVIGATION BAR//
+
+
+nav.navbar-expand-md {
+    padding: 50px;
+    background-color: teal;
+}
+
+
+.navbar-brand {
+    border: $selector;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+//FOOTER//
+
+
+
+
+
+//MEDIA QUIERIES//
+
+@media screen and (min-width: 600px) {
+    .navbar-nav {
+        position: absolute;
+        left: 50%;
+        transform: translatex(-50%);
+    }
+}

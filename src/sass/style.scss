@@ -1,3 +1,9 @@
+
+//COMMON PARTIALS//
 @import "./partials/general";
 @import "./partials/mixins";
 @import "./partials/variables";
+
+
+//PAGE-SPECIFIC PARTIALS//
+@import "./partials/layout";
