@@ -19,19 +19,19 @@ function Layout() {
                         <NavLink to="/" exact>
                             
                         </NavLink>
-                        <NavLink to="/" exact className="nav-link">
+                        <NavLink to="/" exact id="nav-link">
                             Home
                         </NavLink>
-                        <NavLink to="/tours" className="nav-link">
+                        <NavLink to="/tours" id="nav-link">
                             Tours
                         </NavLink>
                         
                         <Navbar.Brand><img alt="" src={LogoTop} width="80" height="70" className="d-inline-block align-top" /></Navbar.Brand>
 
-                        <NavLink to="/about" className="nav-link">
+                        <NavLink to="/about" id="nav-link">
                             About
                         </NavLink>
-                        <NavLink to="/contact" className="nav-link">
+                        <NavLink to="/contact" id="nav-link">
                             Contact
                         </NavLink>
                     </Nav>

@@ -1,20 +1,38 @@
 //NAVIGATION BAR//
 
 
-nav.navbar-expand-md {
+
+
+.navbar.navbar-expand-md.navbar-light {
     padding: 40px;
-    background-color: rgb(255, 255, 255);
+    background-color: $sea;
+
 }
 
 
-.navbar-brand {
+.navbar-brand{
     margin-left: 20px;
-    margin-right: 20px;
+    padding: 5px;
 }
 
-a.nav-link {
+ #nav-link {
+    color: $orange;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 10px;
     margin-top: 20px;
+
+    &.active{
+        text-decoration: underline;
+    }
+
+    &:hover {
+        color: $bright;
+    }
 }
+
+
+
 
 //FOOTER//
 
