@@ -1,0 +1,18 @@
+div.carousel-caption {
+    border-radius: 10px;
+    background-color: rgba($color: #000, $alpha: 0.5);
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    color: rgb(219, 190, 60);
+}
+
+
+.carousel img {
+    
+    min-width: auto;
+}
+
+.c-caption-image {
+    max-width: 15vw;
+}

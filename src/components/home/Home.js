@@ -1,15 +1,15 @@
 import React from 'react';
-import {Container, Col, Row} from "react-bootstrap";
+import {Container, Col, Row, Jumbotron} from "react-bootstrap";
+import MainHeader from '../layout/MainHeader';
+import SubHeader from '../layout/SubHeader';
+import Slider from "../slider/Slider";
+
 
 function Home() {
     return (
-        <div className="home-bg">
-            <Container>
-            <h1>Home</h1>
-
-            <div>Ea sint nulla laborum minim nisi adipisicing ut laboris. Cillum aute reprehenderit ex aute anim pariatur aliquip do proident. Nisi ipsum duis esse nulla reprehenderit eiusmod culpa et.</div>
-            </Container>
-            </div>
+        <>
+        <Slider></Slider>
+        </>
     );
 }
 

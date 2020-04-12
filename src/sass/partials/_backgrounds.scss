@@ -1,4 +1,4 @@
-.home-bg {
+/*.home-bg {
     @include bg-basics;
     background-image: url("../../assets/images/bicycle-438400_1920.jpg");
 }
@@ -11,4 +11,10 @@
 .tours-bg {
     @include bg-basics;
     background-image: url("../../assets/images/arc-de-triomphe-101633_1280.jpg");
+}
+
+*/
+
+.home-jumbo {
+    background-image: url("../../assets/images/blur1.jpg");
 }

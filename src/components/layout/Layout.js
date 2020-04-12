@@ -5,16 +5,20 @@ import Home from "../home/Home";
 import About from "../about/About";
 import Tours from "../tours/Tours";
 import Contact from "../contact/Contact";
+import LogoTop from "../../assets/images/thelogo5.png";
 
 
 function Layout() {
     return (
         <Router>
-            <Navbar expand="md" fixed="top">
+            <Navbar expand="md">
                 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
+                        <NavLink to="/" exact>
+                            
+                        </NavLink>
                         <NavLink to="/" exact className="nav-link">
                             Home
                         </NavLink>
@@ -22,11 +26,8 @@ function Layout() {
                             Tours
                         </NavLink>
                         
+                        <Navbar.Brand><img alt="" src={LogoTop} width="80" height="70" className="d-inline-block align-top" /></Navbar.Brand>
 
-                        <NavLink to="/" exact>
-                            <Navbar.Brand>Re-Cycle</Navbar.Brand>
-                        </NavLink>
-                        
                         <NavLink to="/about" className="nav-link">
                             About
                         </NavLink>
