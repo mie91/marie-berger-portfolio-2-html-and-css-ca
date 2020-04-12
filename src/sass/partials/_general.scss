@@ -1,0 +1,46 @@
+//GLOBALS//
+#root {
+    font-family: $text;
+    color: $dark;
+}
+
+//CONTAINERS//
+
+.container-bright {
+    background-color: $orange;
+}
+
+.infoBox {
+    padding: 10px;
+
+    .mainHeader {
+        color:$sea;
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+}
+
+//HEADERS//
+.mainHeader {
+    font-family: $header;
+}
+
+
+//BUTTONS//
+
+.mainButton {
+    background-color: $sea;
+    padding: 10px;
+    color: $bright;
+
+    &:hover {
+        background-color: $dark;
+        color: $bright;
+        text-decoration: none;
+    }
+
+}

@@ -10,11 +10,18 @@ import LogoTop from "../../assets/images/thelogo5.png";
 
 function Layout() {
     return (
+        <>
         <Router>
             <Navbar expand="md">
                 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+                    <img alt="" src={LogoTop} width="120" height="120" className="second-brand" />
+
                 <Navbar.Collapse id="basic-navbar-nav">
+
+                        
+
                     <Nav className="mr-auto">
                         <NavLink to="/" exact>
                             
@@ -44,6 +51,13 @@ function Layout() {
                     <Route path="/contact" component={Contact} />
                 </Switch>
         </Router>
+
+        <footer>
+            <div className="footercontent">
+                <p>Copyright © 2018 Re-Cycle Paris</p>
+            </div>
+        </footer>
+        </>
     );
 }
 
