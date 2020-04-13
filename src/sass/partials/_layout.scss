@@ -42,7 +42,7 @@
 
 //MEDIA QUIERIES//
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 767px) {
     .navbar-nav {
         position: absolute;
         left: 50%;
@@ -54,7 +54,7 @@
     }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 767px) {
 
 
 span.navbar-brand {

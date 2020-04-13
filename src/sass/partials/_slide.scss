@@ -1,10 +1,15 @@
 div.carousel-caption {
-    border-radius: 10px;
-    background-color: rgba($color: #000, $alpha: 0.5);
+    border-radius: 5px;
+    border: solid $sky 1px;
+    background-color: rgba($color: $dark, $alpha: 0.9);
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
-    color: rgb(219, 190, 60);
+    color:$orange;
+
+    p {
+        color: $sky;
+    }
 }
 
 
@@ -13,6 +18,22 @@ div.carousel-caption {
     min-width: auto;
 }
 
-.c-caption-image {
+.c-caption-image img {
     max-width: 15vw;
 }
+
+
+//MEDIA QUIERIES//
+
+@media screen and (min-width: 769px) {
+  
+}
+
+@media screen and (max-width: 760px) {
+    .c-caption-image {
+        display: none;
+    }
+
+}
+
+

@@ -15,12 +15,8 @@ function Layout() {
             <Navbar expand="md">
                 
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-
                     <img alt="" src={LogoTop} width="120" height="120" className="second-brand" />
-
                 <Navbar.Collapse id="basic-navbar-nav">
-
-                        
 
                     <Nav className="mr-auto">
                         <NavLink to="/" exact>

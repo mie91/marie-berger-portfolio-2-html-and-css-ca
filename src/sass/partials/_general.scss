@@ -11,7 +11,8 @@
 }
 
 .infoBox {
-    padding: 10px;
+    padding: 20px;
+    width: auto;
 
     .mainHeader {
         color:$sea;
@@ -19,6 +20,12 @@
     }
 
     h4 {
+        text-align: center;
+    }
+
+
+
+    .mainButton {
         text-align: center;
     }
 
@@ -33,14 +40,15 @@
 //BUTTONS//
 
 .mainButton {
+    a {
     background-color: $sea;
     padding: 10px;
     color: $bright;
 
-    &:hover {
-        background-color: $dark;
-        color: $bright;
-        text-decoration: none;
+        &:hover {
+            background-color: $dark;
+            color: $bright;
+            text-decoration: none;
+        }
     }
-
 }
