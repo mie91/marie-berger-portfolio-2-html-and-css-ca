@@ -10,24 +10,36 @@
     background-color: $orange;
 }
 
+.container-sky {
+    background-color: $sea;
+}
+
 .infoBox {
-margin-bottom: 20px;
+margin-bottom: 40px;
 margin-top: 20px;
+padding: 10px;
 
     .mainHeader {
         color:$sea;
         text-align: center;    
     }
 
-
-
     div.mainButton {
         display: flex;
         margin-left: 25%;
         margin-top: 40px;
     }
-
 }
+
+    .infoBox-sea {
+        color: $bright;
+        margin: 10px;
+
+        .mainHeader {
+            color: $orange;
+        }
+    }
+
 
 //HEADERS//
 .mainHeader {

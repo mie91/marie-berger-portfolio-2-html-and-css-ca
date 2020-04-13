@@ -1,17 +1,16 @@
-.ourBikes {
+div.ourBikes {
     background-image: url("../../assets/images/slideImages/slide10.jpg");
     @include bg-basics;
-    height: 500px;
+    height: 400px;
 
     .mainHeader {
-        color: $sky;
+        margin-top: 10%;
+        color: $bright;
         font-size: 7em;
         text-align: center;
-        
-        
+        background-color: rgba($color: $dark, $alpha: 0.6); 
     }
 
-    h1 {
-        
-    }
+   
 }
+

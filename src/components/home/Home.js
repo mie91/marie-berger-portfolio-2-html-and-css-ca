@@ -28,23 +28,48 @@ return (
                 <div className="infoBox">
                     <MainHeader title="Values" />
                     <p>Cillum officia officia adipisicing exercitation ullamco aliqua ea mollit enim.Occaecat fugiat
-                            deserunt reprehenderit officia. Non ut tempor proident anim nisi cupidatat aliquip ad pariatur
+                        deserunt reprehenderit officia. Non ut tempor proident anim nisi cupidatat aliquip ad pariatur
                         enim culpa deserunt id.. </p>
-                     
-                    
+
+
                 </div>
                 </Col>
                 <Col className="col-lg-4">
                 <div className="infoBox">
                     <MainHeader title="Satisfaction" />
                     <p>We strive to provide our customers with the best experiences and service, but don't just take it
-                        from us - read the testimonials from our satisfied customers on sites such as Tripadvisor and
-                        Yelp!</p>
+                    from us - read the testimonials from our satisfied customers on sites such as Tripadvisor and
+                    Yelp!</p>
+                    
                 </div>
                 </Col>
             </Row>
         </Container>
-        
+        </div>
+<div className="container-sky">
+    <Jumbotron className="ourBikes">
+        <MainHeader title="Our Bikes"/>
+    </Jumbotron>
+    <Row>
+        <Col className="col-md-6">
+                    <div className="infoBox infoBox-sea">
+                    <MainHeader title="Quality" />
+                    <p>We strive to provide our customers with the best experiences and service, but don't just take it
+                    from us - read the testimonials from our satisfied customers on sites such as Tripadvisor and
+                    Yelp!</p>
+                    
+                </div>
+        </Col>
+        <Col className="col-md-6">
+                    <div className="infoBox infoBox-sea">
+                    <MainHeader title="Waranty" />
+                    <p>We strive to provide our customers with the best experiences and service, but don't just take it
+                    from us - read the testimonials from our satisfied customers on sites such as Tripadvisor and
+                    Yelp!</p>
+                    
+                </div>
+        </Col>
+    </Row>
     </div>
 </>
 );
