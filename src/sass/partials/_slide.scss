@@ -6,20 +6,23 @@ div.carousel-caption {
     transform: translateY(-50%);
     bottom: initial;
     color:$orange;
+    
 
     p {
         color: $sky;
     }
 }
 
+.sliderTextBox {
+    padding: 20px;
+}
 
-.carousel img {
-    
+.carousel img {    
     min-width: auto;
 }
 
 .c-caption-image img {
-    max-width: 15vw;
+    max-width: 20vw;
 }
 
 

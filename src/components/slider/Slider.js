@@ -8,6 +8,7 @@ import Slide5 from "../../assets/images/slideImages/slide5.jpg";
 import Slide7 from "../../assets/images/slideImages/slide7.jpg";
 import Slide9 from "../../assets/images/slideImages/slide9.jpg";
 import LogoTop from "../../assets/images/thelogo5.png";
+import MainHeader from "../layout/MainHeader";
 
 
 
@@ -21,14 +22,14 @@ function Slider() {
                     alt="text"
                 />
                 <Carousel.Caption>
-                    <Row>
+                    <Row className="sliderTextBox">
                         <Col className="c-caption-image">
                             <img  src={LogoTop}
                                 alt="text"
                             />
                         </Col>
                         <Col>
-                            <h3>Experience Paris in a ECO friendly way</h3>
+                            <MainHeader title="Experience Paris in a ECO friendly way"/>
                             <p>Find the perfect tour for you!</p>
                             <div className="eyeCatchButton"> <a href="../tours">Tours</a>
                             </div>
@@ -43,8 +44,10 @@ function Slider() {
                     alt="text"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <MainHeader title="Enjoy our vast selection of tours "/>
+                    <p>- Or contact us for a customized tour experience in the <i>City of Lights</i></p>
+                    <div className="eyeCatchButton"> <a href="../tours">More info</a>
+                    </div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -53,8 +56,10 @@ function Slider() {
                     alt="text"
                 />
                 <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <MainHeader title='"Paris is always a good idea
+
+"'/>
+                    <p>- Audrey Hepburn</p>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

@@ -1,0 +1,17 @@
+.ourBikes {
+    background-image: url("../../assets/images/slideImages/slide10.jpg");
+    @include bg-basics;
+    height: 500px;
+
+    .mainHeader {
+        color: $sky;
+        font-size: 7em;
+        text-align: center;
+        
+        
+    }
+
+    h1 {
+        
+    }
+}

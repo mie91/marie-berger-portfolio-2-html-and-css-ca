@@ -11,22 +11,20 @@
 }
 
 .infoBox {
-    padding: 20px;
-    width: auto;
+margin-bottom: 20px;
+margin-top: 20px;
 
     .mainHeader {
         color:$sea;
-        text-align: center;
-    }
-
-    h4 {
-        text-align: center;
+        text-align: center;    
     }
 
 
 
-    .mainButton {
-        text-align: center;
+    div.mainButton {
+        display: flex;
+        margin-left: 25%;
+        margin-top: 40px;
     }
 
 }
@@ -37,18 +35,7 @@
 }
 
 
-//BUTTONS//
 
-.mainButton {
-    a {
-    background-color: $sea;
-    padding: 10px;
-    color: $bright;
+@media screen and (max-width: 767px) {
 
-        &:hover {
-            background-color: $dark;
-            color: $bright;
-            text-decoration: none;
-        }
-    }
 }

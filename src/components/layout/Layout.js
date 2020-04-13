@@ -6,6 +6,11 @@ import About from "../about/About";
 import Tours from "../tours/Tours";
 import Contact from "../contact/Contact";
 import LogoTop from "../../assets/images/thelogo5.png";
+import YelpIcon from "../../assets/images/icons/iconfinder_yelp_287630.png";
+import TripIcon from "../../assets/images/icons/iconfinder_trip_advisor_287642.png";
+import FbIcon from "../../assets/images/icons/iconfinder_facebook_circle_black_107153.png";
+import InstaIcon from "../../assets/images/icons/iconfinder_38-instagram_1161954.png";
+import TwitterIcon from "../../assets/images/icons/iconfinder_43-twitter_104461.png";
 
 
 function Layout() {
@@ -50,6 +55,15 @@ function Layout() {
 
         <footer>
             <div className="footercontent">
+                    <div className="socialMedia">
+                        <a href="/"><img className="btnIcon" src={InstaIcon} alt="Instagram Logo" /></a>
+
+                        <a href="/"><img className="btnIcon" src={FbIcon} alt="Facebook Logo" /></a>
+                        <a href="/"><img className="btnIcon" src={TwitterIcon} alt="Twitter Logo" /></a>
+                        <a href="/"><img className="btnIcon" src={YelpIcon} alt="Yelp Logo" /></a>
+
+                        <a href="/"><img className="btnIcon" src={TripIcon} alt="Trip Advisor Logo" /></a>
+                    </div>
                 <p>Copyright © 2018 Re-Cycle Paris</p>
             </div>
         </footer>

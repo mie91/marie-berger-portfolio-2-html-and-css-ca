@@ -3,7 +3,7 @@
 .mainButton {
     a {
         background-color: $sea;
-        padding: 10px;
+        padding: 15px;
         color: $bright;
 
         &:hover {
@@ -24,3 +24,16 @@
     }
     
 }
+
+.socialMedia {
+    text-align: center;
+    
+    img.btnIcon {
+        margin: 5px;
+        cursor: pointer;
+        width: 50px;
+        margin-bottom: 20px;
+        
+    }
+}
+
