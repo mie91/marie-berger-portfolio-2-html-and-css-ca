@@ -6,11 +6,11 @@
 
 //CONTAINERS//
 
-.container-bright {
+.container-orange {
     background-color: $orange;
 }
 
-.container-sky {
+.container-sea {
     background-color: $sea;
 
 }
@@ -24,6 +24,10 @@ padding: 10px;
     .mainHeader {
         color:$sea;
         text-align: center;    
+    }
+    .subHeader {
+        font-size: 1.2em;
+        text-transform: uppercase;
     }
 
     div.mainButton {
@@ -39,6 +43,8 @@ padding: 10px;
         .mainHeader {
             color: $orange;
         }
+
+        
     }
 
 
@@ -47,6 +53,10 @@ padding: 10px;
     font-family: $header;
 }
 
+
+.subHeader {
+    font-family: $text;
+}
 
 
 @media screen and (max-width: 767px) {

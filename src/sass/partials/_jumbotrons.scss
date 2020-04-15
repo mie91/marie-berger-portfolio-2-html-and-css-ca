@@ -1,0 +1,35 @@
+div.ourBikes {
+    background-image: url("../../assets/images/slideImages/slide10.jpg");
+    @include bg-basics;
+    height: 600px;
+    border-radius: 0px;
+
+    .mainHeader {
+        margin-top: 10%;
+        color: $bright;
+        font-size: 7em;
+        text-align: center;
+        background-color: rgba($color: $dark, $alpha: 0.6); 
+    }
+
+   
+}
+
+
+div.aboutUsJumbo {
+    background-image: url("../../assets/images/slideImages/slide8.jpg");
+    @include bg-basics;
+    height: 600px;
+    border-radius: 0px;
+
+    .mainHeader {
+        margin-top: 10%;
+        color: $sky;
+        font-size: 7em;
+        text-align: center;
+        background-color: rgba($color: $sea, $alpha: 0.6);
+    }
+
+
+}
+

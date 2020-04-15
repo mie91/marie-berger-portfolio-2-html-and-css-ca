@@ -12,7 +12,7 @@ function Home() {
 return (
 <>
     <Slider></Slider>
-    <div className="container-bright">
+    <div className="container-orange">
         <Container>
             <Row>
                 <Col className="col-md-4">
@@ -46,7 +46,7 @@ return (
             </Row>
         </Container>
     </div>
-    <div className="container-sky">
+    <div className="container-sea">
 
         <Jumbotron className="ourBikes">
             <MainHeader title="Our Bikes" />
