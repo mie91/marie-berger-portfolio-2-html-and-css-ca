@@ -38,38 +38,41 @@ return (
                 <div className="infoBox">
                     <MainHeader title="Satisfaction" />
                     <p>We strive to provide our customers with the best experiences and service, but don't just take it
-                    from us - read the testimonials from our satisfied customers on sites such as Tripadvisor and
-                    Yelp!</p>
-                    
+                        from us - read the testimonials from our satisfied customers on sites such as Tripadvisor and
+                        Yelp!</p>
+
                 </div>
                 </Col>
             </Row>
         </Container>
-        </div>
-<div className="container-sky">
-    <Jumbotron className="ourBikes">
-        <MainHeader title="Our Bikes"/>
-    </Jumbotron>
-    <Row>
-        <Col className="col-md-6">
-                    <div className="infoBox infoBox-sea">
+    </div>
+    <div className="container-sky">
+
+        <Jumbotron className="ourBikes">
+            <MainHeader title="Our Bikes" />
+        </Jumbotron>
+        <Container>
+            <Row>
+                <Col className="col-md-6">
+                <div className="infoBox infoBox-sea">
                     <MainHeader title="Quality" />
-                    <p>We strive to provide our customers with the best experiences and service, but don't just take it
-                    from us - read the testimonials from our satisfied customers on sites such as Tripadvisor and
-                    Yelp!</p>
-                    
+                    <p>Est ad veniam culpa occaecat velit et et irure amet do cillum sit incididunt magna. Non enim
+                        aliquip aliqua id laborum. Voluptate sit sunt ut ut enim deserunt mollit id officia est non
+                        cillum.</p>
+
                 </div>
-        </Col>
-        <Col className="col-md-6">
-                    <div className="infoBox infoBox-sea">
-                    <MainHeader title="Waranty" />
-                    <p>We strive to provide our customers with the best experiences and service, but don't just take it
-                    from us - read the testimonials from our satisfied customers on sites such as Tripadvisor and
-                    Yelp!</p>
-                    
+                </Col>
+                <Col className="col-md-6">
+                <div className="infoBox infoBox-sea">
+                    <MainHeader title="Guarantee" />
+                    <p>Laboris et incididunt eu est cupidatat. Consectetur adipisicing sint tempor officia amet officia
+                        pariatur esse sit do exercitation tempor nulla. Veniam excepteur voluptate culpa minim commodo
+                        tempor exercitation velit pariatur amet. Officia sit cillum deserunt qui cupidatat proident et.
+                    </p>
                 </div>
-        </Col>
-    </Row>
+                </Col>
+            </Row>
+        </Container>
     </div>
 </>
 );
