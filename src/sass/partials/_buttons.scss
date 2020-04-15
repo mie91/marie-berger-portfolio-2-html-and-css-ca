@@ -62,13 +62,23 @@
     }
 }
 
-
 .to-top-container {
-    float: right;
+    display: block;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+.return-top-btn {
+   img { 
+    width: 60px;
+    height: 60px;
+    }
 }
 
-ul.locations {
-    list-style: none;
+ul.basicList {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
     margin-left: auto;
     
 

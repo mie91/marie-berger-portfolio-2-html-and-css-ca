@@ -12,7 +12,16 @@
 
 .container-sea {
     background-color: $sea;
+}
 
+.container-teal {
+    background-color: $teal;
+    border-top: dashed 20px $sea;
+    
+}
+
+.container-dark {
+    background-color: $dark;
 }
 
 
@@ -28,6 +37,7 @@ padding: 10px;
     .subHeader {
         font-size: 1.2em;
         text-transform: uppercase;
+        margin-top: 10px;
     }
 
     div.mainButton {
@@ -37,15 +47,22 @@ padding: 10px;
     }
 }
 
-    .infoBox-sea {
+.infoBox-sea {
         color: $bright;
 
         .mainHeader {
             color: $orange;
         }
+}
 
+.infoBox-teal {
+        color: $dark;
+
+        .mainHeader {
+            color: $bright;
+        }
         
-    }
+}
 
 
 //HEADERS//
