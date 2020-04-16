@@ -48,7 +48,7 @@ return (
     </div>
     <div className="container-sea">
         <Jumbotron className="ourBikes">
-            <MainHeader title="Rental" />
+            <MainHeader title="Re-Cycle?" />
         </Jumbotron>
         <Container>
             <Row>
@@ -63,7 +63,7 @@ return (
                 </Col>
                 <Col className="col-md-6">
                 <div className="infoBox infoBox-sea">
-                    <MainHeader title="Guarantee" />
+                    <MainHeader title="Environment" />
                     <p>Laboris et incididunt eu est cupidatat. Consectetur adipisicing sint tempor officia amet officia
                         pariatur esse sit do exercitation tempor nulla. Veniam excepteur voluptate culpa minim commodo
                         tempor exercitation velit pariatur amet. Officia sit cillum deserunt qui cupidatat proident et.

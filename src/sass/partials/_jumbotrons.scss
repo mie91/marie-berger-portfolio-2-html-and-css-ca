@@ -1,7 +1,7 @@
 div.ourBikes {
-    background-image: url("../../assets/images/slideImages/slide10.jpg");
+    background-image: url("../../assets/images/slideImages/slide5.jpg");
     @include bg-basics;
-    height: 600px;
+    height: 400px;
     border-radius: 0px;
 
     .mainHeader {
@@ -34,7 +34,7 @@ div.aboutUsJumbo {
 }
 
 div.theToursJumbo {
-     background-image: url("../../assets/images/slideImages/slide10.jpg");
+     background-image: url("../../assets/images/slideImages/slide7.jpg");
      @include bg-basics;
      height: 400px;
      border-radius: 0px;

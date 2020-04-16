@@ -7,6 +7,7 @@ import Slide4 from "../../assets/images/slideImages/slide4.jpg";
 import Slide5 from "../../assets/images/slideImages/slide5.jpg";
 import Slide7 from "../../assets/images/slideImages/slide7.jpg";
 import Slide9 from "../../assets/images/slideImages/slide9.jpg";
+import Slide10 from "../../assets/images/slideImages/slide10.jpg";
 import LogoTop from "../../assets/images/thelogo5.png";
 import MainHeader from "../layout/MainHeader";
 
@@ -18,7 +19,7 @@ function Slider() {
         <Carousel className="carousel slide">
             <Carousel.Item>
                 <img className="d-block w-100"
-                    src={Slide4}
+                    src={Slide9}
                     alt="text"
                 />
                 <Carousel.Caption>
@@ -40,7 +41,7 @@ function Slider() {
            
             <Carousel.Item>
                 <img className="d-block w-100"
-                    src={Slide9}
+                    src={Slide10}
                     alt="text"
                 />
                 <Carousel.Caption>
@@ -52,7 +53,7 @@ function Slider() {
             </Carousel.Item>
             <Carousel.Item>
                 <img className="d-block w-100"
-                    src={Slide5}
+                    src={Slide1}
                     alt="text"
                 />
                 <Carousel.Caption>

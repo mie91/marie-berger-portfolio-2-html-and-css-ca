@@ -24,11 +24,11 @@ function TourList() {
                             <Col className="col-md-4">
                                 <SubHeader title="Sights"/>
                                 <div className="sightList">
-                                <ul>
-                                    {tourDetail.attractions.map(attraction =>
-                                        <li>{attraction}</li>
-                                    )}
-                                </ul>
+                                    <ul>
+                                        {tourDetail.attractions.map(attraction =>
+                                            <li>{attraction}</li>
+                                        )}
+                                    </ul>
                                 </div>
 
                             </Col>
