@@ -16,20 +16,23 @@ function TourList() {
                             <div className="smallDetails">
                                 <p>{tourDetail.lenght}</p>
                                 <p>{tourDetail.duration}</p>
-                                <p>{tourDetail.price} euros</p>
+                                <p class="eyeCatchGreen">{tourDetail.price} euros /per</p>
                             </div>
                             <p>{tourDetail.description}</p>
+                                <div className="eyeCatchButton"> <a href="/contact">Book Tour </a></div>
                             </Col>
                             <Col className="col-md-4">
                                 <SubHeader title="Sights"/>
+                                <div className="sightList">
                                 <ul>
                                     {tourDetail.attractions.map(attraction =>
                                         <li>{attraction}</li>
                                     )}
                                 </ul>
+                                </div>
 
                             </Col>
-                            <div className="mainButton"> <a href="/contact">Book Tour </a></div>
+                            
                             
                         </Row>
                         

@@ -33,3 +33,17 @@ div.aboutUsJumbo {
 
 }
 
+div.theToursJumbo {
+     background-image: url("../../assets/images/slideImages/slide10.jpg");
+     @include bg-basics;
+     height: 400px;
+     border-radius: 0px;
+
+     .mainHeader {
+         margin-top: 10%;
+         color: $sky;
+         font-size: 7em;
+         text-align: center;
+         background-color: rgba($color: $sea, $alpha: 0.6);
+     }
+}
