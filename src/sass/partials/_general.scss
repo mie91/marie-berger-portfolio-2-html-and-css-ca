@@ -8,8 +8,13 @@
 
 .container-orange {
     background-color: $orange;
+
     &.container-border {
         border-top: dashed 30px $orange;
+    }
+
+    .aboutImage {
+    border: solid 10px $sea;
     }
 }
 
@@ -19,12 +24,19 @@
     &.container-border {
     border-top: dashed 30px $orange;
     }
+    .aboutImage {
+        border: solid 10px $orange;
+    }
 }
 
 .container-teal {
     background-color: $teal;
     &.container-border {
         border-top: dashed 30px $sea;
+    }
+
+    .aboutImage {
+        border: solid 10px $bright;
     }
 }
 
@@ -71,6 +83,19 @@ padding: 10px;
 
         .mainHeader {
             color: $bright;
+        }
+
+        .eyeCatchButton a {
+            background-color: $bright;
+
+            &:hover {
+                color:$sea;
+                background-color: $sky;
+            }
+        }
+
+        .subHeader {
+            margin: 20px 0px;
         }
         
 }

@@ -3,9 +3,9 @@ import {Container, Col, Row, Jumbotron, Image} from "react-bootstrap";
 import MainHeader from "../layout/MainHeader";
 import SubHeader from "../layout/SubHeader";
 import IconUp from "../../assets/images/icons/icon_up.png";
-import Bike1 from "../../assets/images/resized/bike_1.jpg";
 import Employees1 from "../../assets/images/resized/employees.jpg";
 import Safety2 from "../../assets/images/resized/safety2.jpg";
+import Goals1 from "../../assets/images/resized/goals1.jpg";
 
 const BackToTop = function () {
 function ScrollToTop() {
@@ -124,6 +124,7 @@ return (
                 </Row>
                 <div className="d-flex justify-content-center">
                     <Image fluid className="aboutImage" src={Safety2} alt="Lady with a bike helmet on" />
+                    
                 </div>
             </Container>
         </div>
@@ -135,21 +136,34 @@ return (
                             <MainHeader title="Goals" />
                             <p>Esse veniam laborum commodo velit. Ut nisi eu ipsum fugiat tempor dolor. Dolor tempor pariatur amet exercitation quis tempor. Velit adipisicing nisi irure deserunt velit id labore Lorem eu non culpa.</p>
                             <p>Culpa incididunt sint et Lorem eiusmod eu est anim aliqua sit anim. Eiusmod in reprehenderit do consequat nostrud nostrud excepteur in culpa aliqua.</p>
+                            <p>Enim nostrud cillum amet fugiat reprehenderit esse do anim reprehenderit culpa. Nisi ut consectetur incididunt eu et duis pariatur ipsum esse tempor nisi cillum elit dolor. Enim magna mollit nisi non est sunt incididunt minim et sit tempor cupidatat duis est. Amet mollit qui ullamco proident qui proident sit eiusmod. Dolor amet laborum eiusmod occaecat dolore sit esse irure do elit occaecat dolore irure cupidatat. Laboris officia voluptate sint commodo ut ea.</p>
                         </div>
                     </Col>
                     <section ref={refC} />
                     <Col className="col-md-6">
                         <div className="infoBox infoBox-teal">
                             <MainHeader title="Collaborators" />
-
-                            <ul>
-                                <li>Reprehenderit irure sit deserunt adipisicing veniam.</li>
-                                <li>Cillum laborum aute nulla ad ad. In adipisicing proident sit esse nostrud.</li>
-                                <li>Ullamco Lorem tempor sunt nostrud amet labore sit ut consequat. Consequat aute commodo officia ipsum ea. Mollit pariatur proident exercitation aliquip nisi officia dolor aute aute.</li>
+                            <p>Et elit enim non minim mollit duis nulla cupidatat. Non nulla ex consequat quis consectetur laborum nulla consequat consectetur nostrud. Ad incididunt consectetur quis laborum excepteur deserunt qui proident. Esse mollit laboris exercitation incididunt nulla aliquip aliqua tempor. Ut reprehenderit excepteur et et labore ad non quis exercitation officia qui. Quis labore nostrud exercitation minim Lorem tempor culpa veniam. Magna est commodo duis ea voluptate fugiat voluptate consectetur quis labore ipsum sunt qui nulla.</p>
+                            <ul className="basicList">
+                                <li>
+                                    <div className="mainButton"> <a href="/">Collaborator </a></div>
+                                </li>
+                                <li>
+                                    <div className="mainButton"> <a href="/">Collaborator</a></div>
+                                </li>
+                                <li>
+                                    <div className="mainButton"> <a href="/">Collaborator</a></div>
+                                </li>
                             </ul>
+                            <SubHeader title="Want to collaborate with us?" />
+
+                            <div className="eyeCatchButton"> <a href="/contact">Contact us here!</a></div>
                         </div>
                     </Col>
                 </Row>
+                <div className="d-flex justify-content-center">
+                    <Image fluid className="aboutImage" src={Goals1} alt="Employees at Re-Cycle office" />
+                </div>
                 <BackToTop/>
             </Container>
             

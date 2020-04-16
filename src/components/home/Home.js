@@ -47,9 +47,8 @@ return (
         </Container>
     </div>
     <div className="container-sea">
-
         <Jumbotron className="ourBikes">
-            <MainHeader title="Our Bikes" />
+            <MainHeader title="Rental" />
         </Jumbotron>
         <Container>
             <Row>
