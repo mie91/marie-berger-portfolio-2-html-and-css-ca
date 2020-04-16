@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "title":"The Island Tour",
+        "description": "Amet qui esse aute voluptate proident enim proident mollit do consectetur in proident elit mollit. Commodo cupidatat dolor ullamco non occaecat ullamco incididunt dolore magna consectetur. Ex culpa consequat excepteur irure ipsum ad.",
+        "attractions": ["Sainte-Chapelle","Notre-Dame de Paris", "Pont Neuf","Palais de Justice"],
+        "lenght": "5 km",
+        "duration": "2 hours",
+        "price": 70
+    },
+
+    {
+        "id": 2,
+        "title": "The Park Tour",
+        "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.",
+        "attractions": [
+            "The Eiffel Tower",
+            "Champ de Mars",
+            "Le Jardin du Luxembourg",
+            "Jardins du Trocadéro",
+            "Champs-Élysées Garden"
+        ],
+        "lenght": "8 km",
+        "duration": "4 hours",
+        "price": 90
+    },
+
+    {
+        "id": 3,
+        "title": "The Grand Tour",
+        "description": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.",
+        "attractions": [
+            "Musée du Louvre",
+            "The Eiffel Towers",
+            "Champ de Mars",
+            "Le Jardin du Luxembourg",
+            "Champs-Élysées Garden",
+            "Moulin Rouge",
+            "Notre-Dame de Paris",
+            "Pont Neuf",
+            "Palais de Justice"
+        ],
+        "lenght": "14 km",
+        "duration": "5 hours",
+        "price": 120
+    }
+
+]
