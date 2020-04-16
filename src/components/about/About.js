@@ -5,7 +5,7 @@ import SubHeader from "../layout/SubHeader";
 import IconUp from "../../assets/images/icons/icon_up.png";
 import Bike1 from "../../assets/images/resized/bike_1.jpg";
 import Employees1 from "../../assets/images/resized/employees.jpg";
-import Safety1 from "../../assets/images/resized/safety1.jpg";
+import Safety2 from "../../assets/images/resized/safety2.jpg";
 
 const BackToTop = function () {
 function ScrollToTop() {
@@ -44,6 +44,7 @@ return (
                 </Col>
             </Row>
             <Row>
+                
                 <Col className="col-md-6">
                 <div className="infoBox">
                     <MainHeader title="History" />
@@ -71,7 +72,6 @@ return (
                         <li>Address : 15 Rue de Monttessuy, 75007 Paris, France</li>
                         <li>Phone : (+33) 98765432</li>
                     </ul>
-                    <Image fluid className="aboutImage" src={Employees1} alt="Employees at Re-Cycle office" />
 
                     <SubHeader title="Other locations" />
                     <ul className="basicList">
@@ -88,16 +88,22 @@ return (
                 </div>
                 </Col>
             </Row>
+                <div className="d-flex justify-content-center">
+                    <Image fluid className="aboutImage" src={Employees1} alt="Employees at Re-Cycle office" />
+                </div>
         </Container>
     </div>
-        <div className="container-sea">
+        <div className="container-sea container-border">
             <Container>
+
                 <Row>
+                   
                     <Col className="col-md-6">
                         <div className="infoBox infoBox-sea">
                             <MainHeader title="Values" />
                             <p>Esse veniam laborum commodo velit. Ut nisi eu ipsum fugiat tempor dolor. Dolor tempor pariatur amet exercitation quis tempor. Velit adipisicing nisi irure deserunt velit id labore Lorem eu non culpa.</p>
                             <p>Culpa incididunt sint et Lorem eiusmod eu est anim aliqua sit anim. Eiusmod in reprehenderit do consequat nostrud nostrud excepteur in culpa aliqua.</p>
+                            <p>Eu enim dolore in nostrud dolore ex aute ea. Ullamco ipsum voluptate exercitation id proident anim. Ad pariatur minim officia ex quis nostrud est pariatur aliqua et exercitation consectetur consectetur tempor.</p>
                         </div>
                     </Col>
                     <section ref={refB} />
@@ -109,13 +115,19 @@ return (
                                 <li>Reprehenderit irure sit deserunt adipisicing veniam.</li>
                                 <li>Cillum laborum aute nulla ad ad. In adipisicing proident sit esse nostrud.</li>
                                 <li>Ullamco Lorem tempor sunt nostrud amet labore sit ut consequat. Consequat aute commodo officia ipsum ea. Mollit pariatur proident exercitation aliquip nisi officia dolor aute aute.</li>
+                                <li>Aliquip Lorem eu laboris cupidatat irure cupidatat sint duis laborum elit est. Non ad culpa minim nisi quis reprehenderit labore. Aute cupidatat duis cillum minim qui nulla consectetur tempor consequat minim mollit. </li>
+                                <li>Aute ex quis cupidatat ut tempor officia.</li>
+                                <li>Laboris eu et consectetur nostrud.</li>
                             </ul>
                         </div>
                     </Col>
                 </Row>
+                <div className="d-flex justify-content-center">
+                    <Image fluid className="aboutImage" src={Safety2} alt="Lady with a bike helmet on" />
+                </div>
             </Container>
         </div>
-        <div className="container-teal">
+        <div className="container-teal container-border">
             <Container>
                 <Row>
                     <Col className="col-md-6">
@@ -137,7 +149,6 @@ return (
                             </ul>
                         </div>
                     </Col>
-                    
                 </Row>
                 <BackToTop/>
             </Container>

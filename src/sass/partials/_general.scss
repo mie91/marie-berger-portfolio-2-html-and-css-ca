@@ -8,20 +8,31 @@
 
 .container-orange {
     background-color: $orange;
+    &.container-border {
+        border-top: dashed 30px $orange;
+    }
 }
 
 .container-sea {
     background-color: $sea;
+
+    &.container-border {
+    border-top: dashed 30px $orange;
+    }
 }
 
 .container-teal {
     background-color: $teal;
-    border-top: dashed 20px $sea;
-    
+    &.container-border {
+        border-top: dashed 30px $sea;
+    }
 }
 
 .container-dark {
     background-color: $dark;
+    &.container-border {
+        border-top: dashed 30px $teal;
+    }
 }
 
 
