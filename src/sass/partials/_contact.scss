@@ -17,16 +17,25 @@ div.formBox {
         border: solid $teal 4px;
     }
 
-    button {
+    .formButton {
         background-color: $orange;
         padding: 15px;
         color: $bright;
         border: none;
+        float: right;
 
         &:hover {
             background-color: $teal;
+            color: $dark;
+            text-decoration: none;
+            border: none;
+        }
+
+        &:active {
+            background-color: $orange !important;
             color: $bright;
             text-decoration: none;
+            border: none;
         }
     }
 
@@ -40,9 +49,31 @@ div.formBox {
     color: $bright;
     text-align: right;
     border-bottom: solid $orange 4px;
-    ;
+    
 }
 
+.formValidated {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    color: $sky;
+}
+
+div.contact-info {
+    text-align: center;
+    ul {
+        list-style-type: none;
+        padding: 0px;
+        color: $bright;
+
+        li {
+            background-color: rgba($color: $sea, $alpha: 0.4);
+            margin: 10px 0px;
+            
+        }
+    }
+    
+}
 
 
 //MEDIA QUIRIES//

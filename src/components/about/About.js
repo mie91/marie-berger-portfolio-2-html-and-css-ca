@@ -72,6 +72,7 @@ return (
                         <li>Address : 15 Rue de Monttessuy, 75007 Paris, France</li>
                         <li>Phone : (+33) 98765432</li>
                     </ul>
+                    
 
                     <SubHeader title="Other locations" />
                     <ul className="basicList">

@@ -58,6 +58,7 @@ function Contact() {
                                 <MainHeader title="Any questions? Want a customized tour?" />
                                 <p>Est ad veniam culpa occaecat velit et et irure amet do cillum sit incididunt magna. Non enim
                              aliquip aliqua id laborum. Voluptate sit sunt ut ut enim deserunt mollit id officia est non cillum.</p>
+                             <p>Dolor id dolor ea elit duis non. Enim occaecat nulla esse commodo ad ea. Eiusmod elit mollit consequat irure nulla ipsum elit dolor minim eiusmod.</p>
                             </div>
                         </Col>
                     </Row>
@@ -143,9 +144,18 @@ function Contact() {
                     <Row>
                         <Col className="col-md-12">
                             <div className="infoBox infoBox-teal">
-                                <MainHeader title="Where to find us" />
+                                <MainHeader title="Contact Info" />
+                                <div className="contact-info">
                                 <p>Veniam ipsum ex sit culpa cillum fugiat laborum culpa duis incididunt adipisicing. Ex labore dolor deserunt sint quis sit ipsum in fugiat. Deserunt velit qui do eu velit. Minim tempor ullamco ullamco mollit tempor nulla anim officia. Incididunt pariatur laboris ipsum duis in est.</p>
-                                <div className="eyeCatchButton"> <a href="/contact">Contact us</a></div>
+                               
+                                <ul>
+                                    <li>Phone : (+33) 98765432</li>
+                                    <li>Address : 15 Rue de Monttessuy, 75007 Paris, France</li>
+                                    
+                                </ul>
+
+                                    <div className="eyeCatchButton"> <a href="https://www.google.com/maps/dir//15+Rue+de+Monttessuy,+75007+Paris,+Frankrike/@48.85982,2.299404,16z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47e66fe05db00dcb:0x7c9c1dbd48d809ff!2m2!1d2.2982247!2d48.8592431!3e0?hl=no-NO" target="_blank">See Map</a></div>
+                                </div>
                             </div>
                         </Col>
                     </Row>
