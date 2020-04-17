@@ -1,0 +1,55 @@
+div.formBox {
+    margin-top: 5vw;
+    color: $orange;
+    padding: 30px 10px;
+    border-top: solid $orange 4px;
+    border-bottom: solid $orange 4px;
+    margin: 20px auto;
+    width: 60%;
+    
+
+    form {
+        margin-left: auto;
+        
+    }
+    
+   input, select, textarea {
+        border: solid $teal 4px;
+    }
+
+    button {
+        background-color: $orange;
+        padding: 15px;
+        color: $bright;
+        border: none;
+
+        &:hover {
+            background-color: $teal;
+            color: $bright;
+            text-decoration: none;
+        }
+    }
+
+    label {
+        
+
+    }
+}
+
+.errorMessage {
+    color: $bright;
+    text-align: right;
+    border-bottom: solid $orange 4px;
+    ;
+}
+
+
+
+//MEDIA QUIRIES//
+
+@media screen and (max-width: 767px) {
+    div.formBox {
+        width: 100%;
+}
+
+}

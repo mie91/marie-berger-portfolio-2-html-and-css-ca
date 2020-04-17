@@ -1,5 +1,5 @@
-import React, {useState} from "react";
-import {Button, Col, Form, Container, Row} from "react-bootstrap"
+import React, { useState } from "react";
+import { Button, Col, Form, Container, Row, Jumbotron } from "react-bootstrap"
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 import MainHeader from "../layout/MainHeader";
@@ -19,8 +19,8 @@ const schema = yup.object().shape({
         .required("Required"),
 
     telephoneNumber: yup
-        .string().matches(telephoneRegExp, "The telephone number is not valid"),
-        
+        .string().matches(telephoneRegExp, "Not valid"),
+
     email: yup
         .string()
         .email("Please enter a valid email")
@@ -47,46 +47,75 @@ function Contact() {
 
     return (
         <>
-        <div className="container-orange">
-            <Container>
-                <Form onSubmit={handleSubmit(onSubmit)}>
+            <div className="container-orange">
+                <Jumbotron className="contactJumbo">
+                    <MainHeader title="Contact" />
+                </Jumbotron>
+                <Container>
                     <Row>
-                        <Col className="col-md-4">              
-                            <Form.Group>
-                                <Form.Label>First name:</Form.Label>
-                                <Form.Control name="firstName" placeholder="Your first Name" ref={register} />
-                                {errors.firstName && <ErrorMessage>{errors.firstName.message}</ErrorMessage>}
-                            </Form.Group>
-                        </Col>
-
-                        <Col className="col-md-4">
-                            <Form.Group>
-                                <Form.Label>Last name:</Form.Label>
-                                <Form.Control name="lastName" placeholder="Your first Name" ref={register} />
-                                {errors.lastName && <ErrorMessage>{errors.lastName.message}</ErrorMessage>}
-                            </Form.Group>
+                        <Col className="col-md-12">
+                            <div className="infoBox">
+                                <MainHeader title="Any questions? Want a customized tour?" />
+                                <p>Est ad veniam culpa occaecat velit et et irure amet do cillum sit incididunt magna. Non enim
+                             aliquip aliqua id laborum. Voluptate sit sunt ut ut enim deserunt mollit id officia est non cillum.</p>
+                            </div>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col className="col-md-8">
+                </Container>
+            </div>
+            <div className="container-sea container-border">
+                <Container>
+                    <div className="formBox">
+                    <Form onSubmit={handleSubmit(onSubmit)}>
+                        <Row>
+                            <Col className="col-md-6">
                                 <Form.Group>
-                                    <Form.Label>Telephone Number:</Form.Label>
+                                    <Form.Label>First name</Form.Label>
+                                    <Form.Control name="firstName" placeholder="First Name" ref={register} />
+                                    {errors.firstName && <ErrorMessage>{errors.firstName.message}</ErrorMessage>}
+                                </Form.Group>
+                                </Col>
+                                    <Col className="col-md-6">
+                                <Form.Group>
+                                    <Form.Label>Last name</Form.Label>
+                                    <Form.Control name="lastName" placeholder="Last Name" ref={register} />
+                                    {errors.lastName && <ErrorMessage>{errors.lastName.message}</ErrorMessage>}
+                                </Form.Group>
+                                </Col>
+                            </Row>
+                                <Row>
+                            <Col className="col-md-6">
+                                    <Form.Group>
+                                        <Form.Label>Email Address</Form.Label>
+                                        <Form.Control name="email" placeholder="E-mail" ref={register} />
+                                        {errors.email && <ErrorMessage>{errors.email.message}</ErrorMessage>}
+                                    </Form.Group>
+
+                                <Form.Group>
+                                    <Form.Label>Telephone</Form.Label>
                                     <Form.Control name="telephoneNumber" placeholder="Example: 98765432" ref={register} />
                                     {errors.telephoneNumber && <ErrorMessage>{errors.telephoneNumber.message}</ErrorMessage>}
                                 </Form.Group>
 
-                                <Form.Group>
-                                    <Form.Label>Email Address:</Form.Label>
-                                    <Form.Control name="email" placeholder="Your e-mail" ref={register} />
-                                    {errors.email && <ErrorMessage>{errors.email.message}</ErrorMessage>}
-
+                                <Form.Group controlId="exampleForm.ControlSelect1">
+                                    <Form.Label>Subject</Form.Label>
+                                    <Form.Control as="select">
+                                        <option>General</option>
+                                        <option>Custom Tour</option>
+                                        <option>Feedback</option>
+                                        <option>Refunds</option>
+                                        <option>Other</option>
+                                    </Form.Control>
                                 </Form.Group>
 
+                                
+                            </Col>
+                            <Col className="col-md-6">
                                 <Form.Group>
-                                    <Form.Label>Message:</Form.Label>
+                                    <Form.Label>Message</Form.Label>
                                     <Form.Control
                                         as="textarea"
-                                        rows="3"
+                                        rows="8"
                                         name="message"
                                         placeholder="Enter your message here"
                                         ref={register}
@@ -95,13 +124,33 @@ function Contact() {
                                         <ErrorMessage>{errors.message.message}</ErrorMessage>
                                     )}
                                 </Form.Group>
-                                <Button className="mainButton" type="submit">Submit</Button>
+                            </Col>
+
+                        </Row>
+                        <Row>
+                            <Col className="col-md-12">
+                                <Button className="formButton" type="submit">Submit</Button>
                                 {validated && <div className="formValidated">Your request was validated!</div>}
+                            </Col>
+                        </Row>
+                    </Form>
+                    </div>
+                </Container>
+                <br></br>
+            </div>
+            <div className="container-teal container-border">
+                <Container>
+                    <Row>
+                        <Col className="col-md-12">
+                            <div className="infoBox infoBox-teal">
+                                <MainHeader title="Where to find us" />
+                                <p>Veniam ipsum ex sit culpa cillum fugiat laborum culpa duis incididunt adipisicing. Ex labore dolor deserunt sint quis sit ipsum in fugiat. Deserunt velit qui do eu velit. Minim tempor ullamco ullamco mollit tempor nulla anim officia. Incididunt pariatur laboris ipsum duis in est.</p>
+                                <div className="eyeCatchButton"> <a href="/contact">Contact us</a></div>
+                            </div>
                         </Col>
                     </Row>
-                </Form>
-            </Container>
-        </div>
+                </Container>
+            </div>
         </>
     );
 }
