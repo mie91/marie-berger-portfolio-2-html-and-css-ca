@@ -10,9 +10,10 @@ function TourList() {
             {TourData.map((tourDetail) => {
                 return (
                     <div className="tourCard" key={tourDetail.id}>
-                        <MainHeader title={tourDetail.title}/>
+                        
                         <Row>
                             <Col className="col-md-8">
+                                <MainHeader title={tourDetail.title} />
                             <div className="smallDetails">
                                 <p>{tourDetail.lenght}</p>
                                 <p>{tourDetail.duration}</p>

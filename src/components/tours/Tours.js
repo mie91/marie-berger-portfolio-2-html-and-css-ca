@@ -38,7 +38,7 @@ function Tours (){
                 </Row>
             </Container>
          </div>
-         <div className="container-sea">
+            <div className="container-sea container-border">
              <Container>
                 <Row>
                     <Col className="col-md-12">
@@ -48,7 +48,7 @@ function Tours (){
                     <BackToTop />
             </Container>
          </div>
-            <div className="container-teal">
+            <div className="container-teal container-border">
                 <Container>
                     <Row>
                         <Col className="col-md-12">
