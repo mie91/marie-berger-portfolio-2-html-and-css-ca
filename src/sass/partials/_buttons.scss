@@ -1,5 +1,6 @@
 //BUTTONS//
 
+//GENERAL USE BUTTONS//
 .mainButton {
     a {
         background-color: $sea;
@@ -14,38 +15,25 @@
     }
 }
 
-.eyeCatchButton{
-    
+.eyeCatchButton {
     a {
         background-color: $orange;
         padding: 10px 30px;
         font-family: $header;
         color: $dark;
     }
-
     :hover {
         text-decoration: none;
         color: $bright;
         background-color: $sea;
     }
-    
 }
 
-.socialMedia {
-    text-align: center;
-    
-    img.btnIcon {
-        margin: 5px;
-        cursor: pointer;
-        width: 50px;
-        margin-bottom: 20px;
-        
-    }
-}
 
+
+//SCROLL FAST NAVIGATION BUTTONS//
 .scroll-link-container {
     text-align: center;
-
 }
 
 .scroll-link-btn {
@@ -62,12 +50,13 @@
     }
 }
 
+//BACK TO TOP BUTTON//
 .to-top-container {
     display: block;
     text-align: center;
     padding-bottom: 20px;
-    
 }
+
 .return-top-btn {
     background-color: rgba($color: #fff, $alpha: 0.7);
     border: none;
@@ -76,27 +65,49 @@
     right: 30px;
     z-index: 99;
 
-   img { 
-    width: 50px;
-    height: 50px;
+    img {
+        width: 50px;
+        height: 50px;
     }
-    
 }
 
+
+//HORIZONTAL LIST OF BUTTONS//
 ul.basicList {
     display: inline-flex;
     list-style-type: none;
     padding: 0;
     margin-left: auto;
     text-align: center;
-    
 
     .mainButton {
         margin: 2px;
-
-        a{
+        a {
             padding: 5px;
         }
     }
-    
+}
+
+//SOCIAL MEDIA ICONS//
+.socialMedia {
+    text-align: center;
+
+    img.btnIcon {
+        margin: 5px;
+        cursor: pointer;
+        width: 50px;
+        margin-bottom: 20px;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////
+//MEDIA INQUIRIES//
+@media screen and (max-width: 767px) {
+
+    .return-top-btn {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
 }

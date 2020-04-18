@@ -1,30 +1,16 @@
-import React, { useRef } from "react";
+import React from "react";
 import { Container, Col, Row, Jumbotron } from "react-bootstrap";
 import TourList from "./TourList";
 import MainHeader from '../layout/MainHeader';
-import SubHeader from '../layout/SubHeader';
-import IconUp from "../../assets/images/icons/icon_up.png";
-
-const BackToTop = function () {
-    function ScrollToTop() {
-        window.scrollTo({ behavior: "smooth", top: 0 });
-    }
-
-    return <div className="to-top-container">
-        <button className="return-top-btn" onClick={ScrollToTop}><img className="btnIcon" src={IconUp} alt="Up arrow" />
-        </button>
-    </div>;
-};
-
-
+import BackToTop from "../layout/BackToTop";
 
 function Tours (){
 
     return (
         <>
          <div className="container-orange">
-            <Jumbotron className="theToursJumbo">
-            <MainHeader title="Tours" />
+            <Jumbotron className="theToursJumbo" alt="Image of a bike wheel close-up">
+                <MainHeader title="Tours" />
             </Jumbotron>
             <Container>
                 <Row>
@@ -45,7 +31,6 @@ function Tours (){
                         <TourList/>
                     </Col>
                 </Row>
-                    <BackToTop />
             </Container>
          </div>
             <div className="container-teal container-border">
@@ -60,8 +45,8 @@ function Tours (){
                         </Col>
                     </Row>
                 </Container>
+                <BackToTop/>
             </div>
-        
         </>
     );
 }

@@ -9,8 +9,7 @@ function TourList() {
         <div className="cardHolder">
             {TourData.map((tourDetail) => {
                 return (
-                    <div className="tourCard" key={tourDetail.id}>
-                        
+                    <div className="tourCard" key={tourDetail.id}>   
                         <Row>
                             <Col className="col-md-8">
                                 <MainHeader title={tourDetail.title} />
@@ -31,14 +30,9 @@ function TourList() {
                                         )}
                                     </ul>
                                 </div>
-
-                            </Col>
-                            
-                            
-                        </Row>
-                        
+                            </Col>                            
+                        </Row>                        
                     </div>
-
                 );
             })}
         </div>

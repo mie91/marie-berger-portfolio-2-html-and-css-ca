@@ -1,3 +1,6 @@
+//CONTACT PAGE//
+
+//CONTACT FORM STYLES//
 div.formBox {
     margin-top: 5vw;
     color: $orange;
@@ -6,11 +9,9 @@ div.formBox {
     border-bottom: solid $orange 4px;
     margin: 20px auto;
     width: 60%;
-    
 
     form {
-        margin-left: auto;
-        
+        margin-left: auto; 
     }
     
    input, select, textarea {
@@ -38,20 +39,15 @@ div.formBox {
             border: none;
         }
     }
-
-    label {
-        
-
-    }
 }
-
+//ERROR MESSAGE//
 .errorMessage {
     color: $bright;
     text-align: right;
     border-bottom: solid $orange 4px;
-    
 }
 
+//VALIDATION MESSAGE//
 .formValidated {
     margin: 10px;
     text-align: center;
@@ -59,6 +55,7 @@ div.formBox {
     color: $sky;
 }
 
+//BOTTOM CONTACT INFO//
 div.contact-info {
     text-align: center;
     ul {
@@ -67,20 +64,17 @@ div.contact-info {
         color: $bright;
 
         li {
-            background-color: rgba($color: $sea, $alpha: 0.4);
-            margin: 10px 0px;
-            
+            background-color: rgba($color: $sea, $alpha: 0.2);
+            margin: 10px 0px;  
         }
     }
-    
 }
 
-
-//MEDIA QUIRIES//
+//////////////////////////////////////////////////////////////////////////////
+//MEDIA INQUIRIES//
 
 @media screen and (max-width: 767px) {
     div.formBox {
         width: 100%;
-}
-
+    }
 }

@@ -4,8 +4,7 @@
     color: $dark;
 }
 
-//CONTAINERS//
-
+//MAIN CONTAINERS//
 .container-orange {
     background-color: $orange;
 
@@ -47,7 +46,9 @@
     }
 }
 
+//GENERAL TEXT BOXES FOR CONTAINERS//
 
+//MAIN BOX//
 .infoBox {
 margin-bottom: 40px;
 margin-top: 20px;
@@ -70,51 +71,46 @@ padding: 10px;
     }
 }
 
+//SEA BOX//
 .infoBox-sea {
-        color: $bright;
+    color: $bright;
 
-        .mainHeader {
-            color: $orange;
-        }
+    .mainHeader {
+        color: $orange;
+    }
 }
-
+//TEAL BOX//
 .infoBox-teal {
-        color: $dark;
+    color: $dark;
 
-        .mainHeader {
-            color: $bright;
-        }
+    .mainHeader {
+        color: $bright;
+    }
 
-        .eyeCatchButton a {
-            background-color: $bright;
+    .eyeCatchButton a {
+        background-color: $bright;
 
-            &:hover {
-                color:$sea;
-                background-color: $sky;
-            }
+        &:hover {
+            color:$sea;
+            background-color: $sky;
+            }        
+    }
 
-            
-        }
-        
-
-        .subHeader {
-            margin: 20px 0px;
-        }
-        
+    .subHeader {
+        margin: 20px 0px;
+    }      
 }
-
 
 //HEADERS//
 .mainHeader {
     font-family: $header;
 }
 
-
 .subHeader {
     font-family: $text;
 }
 
-
-@media screen and (max-width: 767px) {
-
+//IMAGES// 
+.aboutImage {
+    margin-bottom: 5vw;
 }

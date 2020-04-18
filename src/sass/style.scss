@@ -1,21 +1,14 @@
-
-
-
 //COMMON PARTIALS//
 @import "./partials/variables";
-@import "./partials/general";
 @import "./partials/mixins";
+@import "./partials/general";
 @import "./partials/buttons";
 @import "./partials/jumbotrons";
-@import "./partials/images";
-
-
 
 //PAGE-SPECIFIC PARTIALS//
 @import "./partials/layout";
 @import "./partials/tours";
 @import "./partials/contact";
-
 
 //OTHER//
 @import "./partials/slide";

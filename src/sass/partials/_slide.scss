@@ -1,3 +1,5 @@
+//IMAGE CAROUSEL//
+
 div.carousel-caption {
     border-radius: 5px;
     border: solid $sky 1px;
@@ -7,7 +9,6 @@ div.carousel-caption {
     bottom: initial;
     color:$orange;
     
-
     p {
         color: $sky;
     }
@@ -27,11 +28,6 @@ div.carousel-caption {
 
 
 //MEDIA QUIERIES//
-
-@media screen and (min-width: 769px) {
-  
-}
-
 @media screen and (max-width: 760px) {
     .c-caption-image {
         display: none;
@@ -55,10 +51,6 @@ div.carousel-caption {
             padding: 2px;
         }
     }
-
-   
-
-
 }
 
 

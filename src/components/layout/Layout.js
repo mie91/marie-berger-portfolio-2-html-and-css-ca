@@ -16,57 +16,49 @@ import TwitterIcon from "../../assets/images/icons/iconfinder_43-twitter_104461.
 function Layout() {
     return (
         <>
-        <Router>
-            <Navbar expand="md">
-                
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <img alt="" src={LogoTop} width="120" height="120" className="second-brand" />
-                <Navbar.Collapse id="basic-navbar-nav">
-
-                    <Nav className="mr-auto">
-                        <NavLink to="/" exact>
-                            
-                        </NavLink>
-                        <NavLink to="/" exact id="nav-link">
-                            Home
-                        </NavLink>
-                        <NavLink to="/tours" id="nav-link">
-                            Tours
-                        </NavLink>
-                        
-                        <Navbar.Brand><img alt="" src={LogoTop} width="80" height="70" className="d-inline-block align-top" /></Navbar.Brand>
-
-                        <NavLink to="/about" id="nav-link">
-                            About
-                        </NavLink>
-                        <NavLink to="/contact" id="nav-link">
-                            Contact
-                        </NavLink>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
-                <Switch>
-                    <Route path="/" exact component={Home} />
-                    <Route path="/about" component={About} />
-                    <Route path="/tours" component={Tours} />
-                    <Route path="/contact" component={Contact} />
-                </Switch>
-        </Router>
-
-        <footer>
-            <div className="footercontent">
-                    <div className="socialMedia">
-                        <a href="/"><img className="btnIcon" src={InstaIcon} alt="Instagram Logo" /></a>
-
-                        <a href="/"><img className="btnIcon" src={FbIcon} alt="Facebook Logo" /></a>
-                        <a href="/"><img className="btnIcon" src={TwitterIcon} alt="Twitter Logo" /></a>
-                        <a href="/"><img className="btnIcon" src={YelpIcon} alt="Yelp Logo" /></a>
-
-                        <a href="/"><img className="btnIcon" src={TripIcon} alt="Trip Advisor Logo" /></a>
-                    </div>
-                <p>Copyright © 2018 Re-Cycle Paris</p>
-            </div>
-        </footer>
+            <Router>
+                <Navbar expand="md">             
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                        <img alt="" src={LogoTop} width="120" height="120" className="second-brand" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        <Nav className="mr-auto">
+                            <NavLink to="/" exact>
+                            </NavLink>
+                            <NavLink to="/" exact id="nav-link">
+                                Home
+                            </NavLink>
+                            <NavLink to="/tours" id="nav-link">
+                                Tours
+                            </NavLink>
+                            <Navbar.Brand><img alt="Re Cycle logo" src={LogoTop} width="80" height="70" className="d-inline-block align-top" /></Navbar.Brand>
+                            <NavLink to="/about" id="nav-link">
+                                About
+                            </NavLink>
+                            <NavLink to="/contact" id="nav-link">
+                                Contact
+                            </NavLink>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Navbar>
+                    <Switch>
+                        <Route path="/" exact component={Home} />
+                        <Route path="/about" component={About} />
+                        <Route path="/tours" component={Tours} />
+                        <Route path="/contact" component={Contact} />
+                    </Switch>
+            </Router>
+            <footer>
+                <div className="footercontent">
+                        <div className="socialMedia">
+                            <a href="/"><img className="btnIcon" src={InstaIcon} alt="Instagram Logo" /></a>
+                            <a href="/"><img className="btnIcon" src={FbIcon} alt="Facebook Logo" /></a>
+                            <a href="/"><img className="btnIcon" src={TwitterIcon} alt="Twitter Logo" /></a>
+                            <a href="/"><img className="btnIcon" src={YelpIcon} alt="Yelp Logo" /></a>
+                            <a href="/"><img className="btnIcon" src={TripIcon} alt="Trip Advisor Logo" /></a>
+                        </div>
+                    <p>Copyright © 2020 Re-Cycle Paris</p>
+                </div>
+            </footer>
         </>
     );
 }

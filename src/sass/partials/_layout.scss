@@ -1,15 +1,16 @@
+//LAYOUT BAR//
 //NAVIGATION BAR//
 .navbar.navbar-expand-md.navbar-light {
     padding: 40px;
     background-color: $sea;
     border-bottom: $dark solid 1px;
-
 }
+
 .navbar-brand{
     padding: 10px;
 }
 
- #nav-link {
+#nav-link {
     color: $orange;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -26,11 +27,7 @@
     }
 }
 
-
-
-
 //FOOTER//
-
 .footercontent {
     background-color: $dark;
     padding: 20px;
@@ -38,10 +35,7 @@
     color: $teal;
 }
 
-
-
 //MEDIA QUIERIES//
-
 @media screen and (min-width: 767px) {
     .navbar-nav {
         position: absolute;
@@ -55,10 +49,8 @@
 }
 
 @media screen and (max-width: 767px) {
-
-
-span.navbar-brand {
-    display: none;
-}
+    span.navbar-brand {
+        display: none;
+    }
 
 } 

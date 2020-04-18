@@ -1,5 +1,17 @@
-@mixin bg-basics {
+// FOR JUMBOTRONS//
+@mixin jumbo-bg-basics {
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@mixin jumbo-basics {
+    height: 600px;
+    border-radius: 0px;
+}
+
+@mixin jumbo-header {
+    margin-top: 10%;
+    font-size: 6em;
+    text-align: center;
 }

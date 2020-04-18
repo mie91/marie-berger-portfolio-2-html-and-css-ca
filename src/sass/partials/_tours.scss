@@ -1,22 +1,21 @@
-
-
+//TOUR PAGE//
+//TOUR CONTAINERS//
 .tourCard {
     margin: 20px 5px;
     color: $bright;
-    border-bottom: solid $orange 2px;
+    border-bottom: $borderbasic;
 
     .mainHeader, .subHeader {
         color: $orange;
     }
     
-
     .eyeCatchButton {
         margin-bottom: 15px;
         display:inline-flex;
     }
 
     .sightList{
-        border-left: solid $orange 2px;
+        border-left: $borderbasic;
         margin: 20px 0px;
     }
 }
