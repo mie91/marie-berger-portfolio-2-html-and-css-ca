@@ -30,7 +30,9 @@ function Layout() {
                             <NavLink to="/tours" id="nav-link">
                                 Tours
                             </NavLink>
+                            <NavLink to="/" exact>
                             <Navbar.Brand><img alt="Re Cycle logo" src={LogoTop} width="80" height="70" className="d-inline-block align-top" /></Navbar.Brand>
+                            </NavLink>
                             <NavLink to="/about" id="nav-link">
                                 About
                             </NavLink>
